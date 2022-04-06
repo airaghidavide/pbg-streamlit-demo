@@ -4,7 +4,7 @@ import numpy as np
 
 @st.cache
 def load_dataset():
-    df = pd.read_csv('/Users/davideairaghi/Desktop/prova_streamlit/data/chocolate.csv')
+    df = pd.read_csv('./data/chocolate.csv')
     df.drop(columns=['Unnamed: 0','ref','beans','specific_bean_origin_or_bar_name','cocoa_butter','vanilla','lecithin','salt','sugar','sweetener_without_sugar','first_taste','second_taste','third_taste','fourth_taste'],inplace=True)
     conditions = [
                     (df['rating'] >= 4.0) & (df['rating'] <= 5.0),

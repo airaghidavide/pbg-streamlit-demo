@@ -8,7 +8,7 @@ st.set_page_config(
  )
 st.title('Chocolate Bar Rating')
 st.write('Chocolate is one of the most popular candies in the world. Each year, residents of the United States collectively eat more than 2.8 billions pounds. However, not all chocolate bars are created equal!')
-st.image('/Users/davideairaghi/Desktop/prova_streamlit/static/choco_bar.jpg',width=300)
+st.image('./static/choco_bar.jpg',width=300)
 
 #load data for the app (all in cache)
 df_choco = load_data.load_dataset()

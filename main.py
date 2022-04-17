@@ -9,7 +9,7 @@ st.set_page_config(
 
 st.title('Chocolate bar rating')
 st.write('App demo PBG')
-st.image('static/choco_bar.jpg',width=300)
+st.image('/static/choco_bar.jpg',width=300)
 
 df_choco = load_data.load_dataset()
 

@@ -10,3 +10,4 @@ Chocolate is one of the most popular candies in the world. Each year, residents 
 https://www.kaggle.com/datasets/rtatman/chocolate-bar-ratings
 
 ## App snapshot
+![](https://github.com/airaghidavide/pgb-streamlit-demo/blob/main/static/snapshot_app.png)
